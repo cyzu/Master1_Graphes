@@ -24,8 +24,9 @@ public:
     std::vector<int> getNeighbors(const int n);
 
     Graph* tranpose();
-    void DFS();
-};
 
+    void deleteNode(const int n);
+    //std::stack<int> DFS(const int s);
+};
 
 #endif //PROJECT_GRAPHE_NEW_LIST_H

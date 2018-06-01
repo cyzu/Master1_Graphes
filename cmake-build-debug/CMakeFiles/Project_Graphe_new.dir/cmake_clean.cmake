@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Project_Graphe_new.dir/Graph.cpp.o"
   "CMakeFiles/Project_Graphe_new.dir/List.cpp.o"
   "CMakeFiles/Project_Graphe_new.dir/Matrix.cpp.o"
+  "CMakeFiles/Project_Graphe_new.dir/Kosaraju.cpp.o"
   "Project_Graphe_new.pdb"
   "Project_Graphe_new"
 )

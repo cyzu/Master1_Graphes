@@ -15,6 +15,16 @@ iostream
 -
 vector
 -
+stack
+-
+
+/home/chloe/Documents/Project_Graphe_new/Kosaraju.cpp
+Kosaraju.h
+/home/chloe/Documents/Project_Graphe_new/Kosaraju.h
+
+/home/chloe/Documents/Project_Graphe_new/Kosaraju.h
+Graph.h
+/home/chloe/Documents/Project_Graphe_new/Graph.h
 
 /home/chloe/Documents/Project_Graphe_new/List.cpp
 List.h
@@ -43,4 +53,6 @@ List.h
 /home/chloe/Documents/Project_Graphe_new/List.h
 Matrix.h
 /home/chloe/Documents/Project_Graphe_new/Matrix.h
+Kosaraju.h
+/home/chloe/Documents/Project_Graphe_new/Kosaraju.h
 

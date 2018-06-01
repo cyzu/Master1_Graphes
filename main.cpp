@@ -1,12 +1,13 @@
 #include <iostream>
 #include "List.h"
 #include "Matrix.h"
+#include "Kosaraju.h"
 
 void exemple1(Graph * g){
     /* 5 sommets
-     * CFC 1 : a b c
-     * CFC 2 : d
-     * CFC 3 : e
+     * CFC 1 : 0 1 2
+     * CFC 2 : 3
+     * CFC 3 : 4
      * */
     g->addEdge(0, 2);
     g->addEdge(2, 1);
@@ -17,10 +18,10 @@ void exemple1(Graph * g){
 
 void exemple2(Graph * g){
     /* 8 sommets
-     * CFC 1 : a b e f
-     * CFC 2 : c g
-     * CFC 3 : d
-     * CFC 4 : h
+     * CFC 1 : 0 1 4 5
+     * CFC 2 : 2 6
+     * CFC 3 : 3
+     * CFC 4 : 7
      * */
     g->addEdge(0, 1);
     g->addEdge(4, 0);
@@ -37,8 +38,8 @@ void exemple2(Graph * g){
 
 void exemple3(Graph * g){
     /* 6 sommets (graphe non-connexe)
-     * CFC 1 : a b c d
-     * CFC 2 : e f
+     * CFC 1 : 0 1 2 3
+     * CFC 2 : 4 5
      * */
     g->addEdge(0, 1);
     g->addEdge(2, 0);
@@ -52,10 +53,10 @@ void exemple3(Graph * g){
 
 void exemple4(Graph * g){
     /* 8 sommets
-     * CFC 1 : a b c
-     * CFC 2 : e d
-     * CFC 3 : f g
-     * CFC 4 : h
+     * CFC 1 : 0 1 2
+     * CFC 2 : 4 3
+     * CFC 3 : 5 6
+     * CFC 4 : 7
      * */
     g->addEdge(1, 0);
     g->addEdge(0, 2);
@@ -75,11 +76,11 @@ void exemple4(Graph * g){
 
 void exemple5(Graph * g){
     /* 12 sommets
-     * CFC 1 : a
-     * CFC 2 : b e
-     * CFC 3 : c f
-     * CFC 4 : d
-     * CFC 5 : g h i j k l
+     * CFC 1 : 0
+     * CFC 2 : 1 4
+     * CFC 3 : 2 5
+     * CFC 4 : 3
+     * CFC 5 : 6 7 8 9 10 11
      * */
     g->addEdge(1, 0);
     g->addEdge(3, 1);
@@ -114,15 +115,18 @@ void exempleCircuit(Graph *g) {
 }
 
 int main() {
-    Graph *g1 = new List(3);
-
-    g1->addEdge(0,1);
-    g1->addEdge(1,0);
-    g1->addEdge(0,2);
+    Graph *g1 = new Matrix(8);
+    exemple2(g1);
 
     g1->printGraph();
 
-    Graph *gt = g1->tranpose();
-    gt->printGraph();
+    /*Graph * g2 = g1->tranpose();
+    g2->printGraph();
+    return 0;*/
+
+    Kosaraju kosaraju;
+    kosaraju.algorithm(g1);
+    kosaraju.printPartition();
+
     return 0;
 }

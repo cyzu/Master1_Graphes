@@ -4,6 +4,10 @@
 CMakeFiles/Project_Graphe_new.dir/Graph.cpp.o
  /home/chloe/Documents/Project_Graphe_new/Graph.cpp
  /home/chloe/Documents/Project_Graphe_new/Graph.h
+CMakeFiles/Project_Graphe_new.dir/Kosaraju.cpp.o
+ /home/chloe/Documents/Project_Graphe_new/Graph.h
+ /home/chloe/Documents/Project_Graphe_new/Kosaraju.cpp
+ /home/chloe/Documents/Project_Graphe_new/Kosaraju.h
 CMakeFiles/Project_Graphe_new.dir/List.cpp.o
  /home/chloe/Documents/Project_Graphe_new/Graph.h
  /home/chloe/Documents/Project_Graphe_new/List.cpp
@@ -14,6 +18,7 @@ CMakeFiles/Project_Graphe_new.dir/Matrix.cpp.o
  /home/chloe/Documents/Project_Graphe_new/Matrix.h
 CMakeFiles/Project_Graphe_new.dir/main.cpp.o
  /home/chloe/Documents/Project_Graphe_new/Graph.h
+ /home/chloe/Documents/Project_Graphe_new/Kosaraju.h
  /home/chloe/Documents/Project_Graphe_new/List.h
  /home/chloe/Documents/Project_Graphe_new/Matrix.h
  /home/chloe/Documents/Project_Graphe_new/main.cpp

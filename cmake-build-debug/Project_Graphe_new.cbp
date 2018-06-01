@@ -90,6 +90,12 @@
 		<Unit filename="/home/chloe/Documents/Project_Graphe_new/Graph.h">
 			<Option target="Project_Graphe_new"/>
 		</Unit>
+		<Unit filename="/home/chloe/Documents/Project_Graphe_new/Kosaraju.cpp">
+			<Option target="Project_Graphe_new"/>
+		</Unit>
+		<Unit filename="/home/chloe/Documents/Project_Graphe_new/Kosaraju.h">
+			<Option target="Project_Graphe_new"/>
+		</Unit>
 		<Unit filename="/home/chloe/Documents/Project_Graphe_new/List.cpp">
 			<Option target="Project_Graphe_new"/>
 		</Unit>

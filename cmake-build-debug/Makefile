@@ -150,6 +150,33 @@ Graph.cpp.s:
 	$(MAKE) -f CMakeFiles/Project_Graphe_new.dir/build.make CMakeFiles/Project_Graphe_new.dir/Graph.cpp.s
 .PHONY : Graph.cpp.s
 
+Kosaraju.o: Kosaraju.cpp.o
+
+.PHONY : Kosaraju.o
+
+# target to build an object file
+Kosaraju.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_Graphe_new.dir/build.make CMakeFiles/Project_Graphe_new.dir/Kosaraju.cpp.o
+.PHONY : Kosaraju.cpp.o
+
+Kosaraju.i: Kosaraju.cpp.i
+
+.PHONY : Kosaraju.i
+
+# target to preprocess a source file
+Kosaraju.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_Graphe_new.dir/build.make CMakeFiles/Project_Graphe_new.dir/Kosaraju.cpp.i
+.PHONY : Kosaraju.cpp.i
+
+Kosaraju.s: Kosaraju.cpp.s
+
+.PHONY : Kosaraju.s
+
+# target to generate assembly for a file
+Kosaraju.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_Graphe_new.dir/build.make CMakeFiles/Project_Graphe_new.dir/Kosaraju.cpp.s
+.PHONY : Kosaraju.cpp.s
+
 List.o: List.cpp.o
 
 .PHONY : List.o
@@ -243,6 +270,9 @@ help:
 	@echo "... Graph.o"
 	@echo "... Graph.i"
 	@echo "... Graph.s"
+	@echo "... Kosaraju.o"
+	@echo "... Kosaraju.i"
+	@echo "... Kosaraju.s"
 	@echo "... List.o"
 	@echo "... List.i"
 	@echo "... List.s"

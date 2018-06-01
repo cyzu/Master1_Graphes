@@ -9,7 +9,8 @@
 #include "Graph.h"
 
 class Matrix : public Graph {
-public :
+
+    public :
     int **matrix;
 
     Matrix(const int n);
@@ -21,7 +22,9 @@ public :
     std::vector<int> getNeighbors(const int n) override;
 
     Graph * tranpose();
-    void DFS() override;
+
+    virtual void deleteNode(const int n);
+//    std::stack<int> DFS(const int s);
 };
 
 

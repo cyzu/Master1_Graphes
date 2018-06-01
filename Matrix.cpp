@@ -37,9 +37,31 @@ std::vector<int> Matrix::getNeighbors(const int n) {
     return neighbor;
 }
 
-void Matrix::DFS() {
-    // TODO DFS pour matrice
-}
+/*std::stack<int> Matrix::DFS(const int s) {
+    std::stack<int> result, S;
+    bool mark[getNodeCount()];
+    for (int i = 0; i < getNodeCount(); i++) {
+        mark[i] = false;
+    }
+
+    S.push(s);
+    mark[s] = true;
+
+    while(!S.empty()){
+        int x = S.top();
+        S.pop();
+        result.push(x);
+
+        std::vector<int> voisins = getNeighbors(x);
+        for (std::vector<int>::iterator it = voisins.begin(); it != voisins.end(); it++) {
+            if (!mark[*it]){
+                mark[*it] = true;
+                S.push(*it);
+            }
+        }
+    }
+    return result;
+}*/
 
 void Matrix::printGraph() {
     std::cout<<" ";
@@ -75,4 +97,15 @@ Graph * Matrix::tranpose() {
         }
     }
     return tmp;
+}
+
+void Matrix::deleteNode(const int n) {
+    for (int i = 0; i < getNodeCount(); i++) {
+        for (int j = 0; j < getNodeCount(); j++) {
+            if (i == n || j == n){
+                matrix[i][j] = 0;
+            }
+        }
+    }
+
 }
