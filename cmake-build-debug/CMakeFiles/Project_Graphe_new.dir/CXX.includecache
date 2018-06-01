@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chloe/Documents/Project_Graphe_new/Graph.cpp
+Graph.h
+/home/chloe/Documents/Project_Graphe_new/Graph.h
+
+/home/chloe/Documents/Project_Graphe_new/Graph.h
+iostream
+-
+vector
+-
+
+/home/chloe/Documents/Project_Graphe_new/List.cpp
+List.h
+/home/chloe/Documents/Project_Graphe_new/List.h
+
+/home/chloe/Documents/Project_Graphe_new/List.h
+Graph.h
+/home/chloe/Documents/Project_Graphe_new/Graph.h
+iostream
+-
+set
+-
+
+/home/chloe/Documents/Project_Graphe_new/Matrix.cpp
+Matrix.h
+/home/chloe/Documents/Project_Graphe_new/Matrix.h
+
+/home/chloe/Documents/Project_Graphe_new/Matrix.h
+Graph.h
+/home/chloe/Documents/Project_Graphe_new/Graph.h
+
+/home/chloe/Documents/Project_Graphe_new/main.cpp
+iostream
+-
+List.h
+/home/chloe/Documents/Project_Graphe_new/List.h
+Matrix.h
+/home/chloe/Documents/Project_Graphe_new/Matrix.h
+
