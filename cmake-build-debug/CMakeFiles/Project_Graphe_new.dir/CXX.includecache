@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/home/chloe/Documents/Project_Graphe_new/Gabow.cpp
+Gabow.h
+/home/chloe/Documents/Project_Graphe_new/Gabow.h
+
+/home/chloe/Documents/Project_Graphe_new/Gabow.h
+iostream
+-
+stack
+-
+vector
+-
+Graph.h
+/home/chloe/Documents/Project_Graphe_new/Graph.h
+
 /home/chloe/Documents/Project_Graphe_new/Graph.cpp
 Graph.h
 /home/chloe/Documents/Project_Graphe_new/Graph.h
@@ -73,4 +87,6 @@ Kosaraju.h
 /home/chloe/Documents/Project_Graphe_new/Kosaraju.h
 Tarjan.h
 /home/chloe/Documents/Project_Graphe_new/Tarjan.h
+Gabow.h
+/home/chloe/Documents/Project_Graphe_new/Gabow.h
 

@@ -3,6 +3,7 @@
 #include "Matrix.h"
 #include "Kosaraju.h"
 #include "Tarjan.h"
+#include "Gabow.h"
 
 void exemple1(Graph * g){
     /* 5 sommets
@@ -116,8 +117,8 @@ void exempleCircuit(Graph *g) {
 }
 
 int main() {
-    Graph *g1 = new List(8);
-    exemple4(g1);
+    Graph *g1 = new List(12);
+    exemple5(g1);
 
     g1->printGraph();
 
@@ -128,5 +129,10 @@ int main() {
     Tarjan tarjan(g1->getNodeCount());
     tarjan.algorithm(g1);
     tarjan.printPartition();
+
+    Gabow gabow(g1->getNodeCount());
+    gabow.algorithm(g1);
+    gabow.printPartition();
+
     return 0;
 }
