@@ -46,6 +46,22 @@ Matrix.h
 Graph.h
 /home/chloe/Documents/Project_Graphe_new/Graph.h
 
+/home/chloe/Documents/Project_Graphe_new/Tarjan.cpp
+Tarjan.h
+/home/chloe/Documents/Project_Graphe_new/Tarjan.h
+Tarjan.h
+/home/chloe/Documents/Project_Graphe_new/Tarjan.h
+algorithm
+-
+
+/home/chloe/Documents/Project_Graphe_new/Tarjan.h
+iostream
+-
+vector
+-
+Graph.h
+/home/chloe/Documents/Project_Graphe_new/Graph.h
+
 /home/chloe/Documents/Project_Graphe_new/main.cpp
 iostream
 -
@@ -55,4 +71,6 @@ Matrix.h
 /home/chloe/Documents/Project_Graphe_new/Matrix.h
 Kosaraju.h
 /home/chloe/Documents/Project_Graphe_new/Kosaraju.h
+Tarjan.h
+/home/chloe/Documents/Project_Graphe_new/Tarjan.h
 

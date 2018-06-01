@@ -16,9 +16,14 @@ CMakeFiles/Project_Graphe_new.dir/Matrix.cpp.o: ../Graph.h
 CMakeFiles/Project_Graphe_new.dir/Matrix.cpp.o: ../Matrix.cpp
 CMakeFiles/Project_Graphe_new.dir/Matrix.cpp.o: ../Matrix.h
 
+CMakeFiles/Project_Graphe_new.dir/Tarjan.cpp.o: ../Graph.h
+CMakeFiles/Project_Graphe_new.dir/Tarjan.cpp.o: ../Tarjan.cpp
+CMakeFiles/Project_Graphe_new.dir/Tarjan.cpp.o: ../Tarjan.h
+
 CMakeFiles/Project_Graphe_new.dir/main.cpp.o: ../Graph.h
 CMakeFiles/Project_Graphe_new.dir/main.cpp.o: ../Kosaraju.h
 CMakeFiles/Project_Graphe_new.dir/main.cpp.o: ../List.h
 CMakeFiles/Project_Graphe_new.dir/main.cpp.o: ../Matrix.h
+CMakeFiles/Project_Graphe_new.dir/main.cpp.o: ../Tarjan.h
 CMakeFiles/Project_Graphe_new.dir/main.cpp.o: ../main.cpp
 

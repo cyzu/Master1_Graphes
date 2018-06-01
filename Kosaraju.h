@@ -13,6 +13,7 @@ private:
 
 public:
     Kosaraju();
+    ~Kosaraju();
 
     void printPartition();
     void deleteNodeFromStack(std::stack<int> *S, const int n);

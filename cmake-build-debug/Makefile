@@ -231,6 +231,33 @@ Matrix.cpp.s:
 	$(MAKE) -f CMakeFiles/Project_Graphe_new.dir/build.make CMakeFiles/Project_Graphe_new.dir/Matrix.cpp.s
 .PHONY : Matrix.cpp.s
 
+Tarjan.o: Tarjan.cpp.o
+
+.PHONY : Tarjan.o
+
+# target to build an object file
+Tarjan.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_Graphe_new.dir/build.make CMakeFiles/Project_Graphe_new.dir/Tarjan.cpp.o
+.PHONY : Tarjan.cpp.o
+
+Tarjan.i: Tarjan.cpp.i
+
+.PHONY : Tarjan.i
+
+# target to preprocess a source file
+Tarjan.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_Graphe_new.dir/build.make CMakeFiles/Project_Graphe_new.dir/Tarjan.cpp.i
+.PHONY : Tarjan.cpp.i
+
+Tarjan.s: Tarjan.cpp.s
+
+.PHONY : Tarjan.s
+
+# target to generate assembly for a file
+Tarjan.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_Graphe_new.dir/build.make CMakeFiles/Project_Graphe_new.dir/Tarjan.cpp.s
+.PHONY : Tarjan.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -279,6 +306,9 @@ help:
 	@echo "... Matrix.o"
 	@echo "... Matrix.i"
 	@echo "... Matrix.s"
+	@echo "... Tarjan.o"
+	@echo "... Tarjan.i"
+	@echo "... Tarjan.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

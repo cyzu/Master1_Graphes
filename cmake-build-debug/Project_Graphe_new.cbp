@@ -108,6 +108,12 @@
 		<Unit filename="/home/chloe/Documents/Project_Graphe_new/Matrix.h">
 			<Option target="Project_Graphe_new"/>
 		</Unit>
+		<Unit filename="/home/chloe/Documents/Project_Graphe_new/Tarjan.cpp">
+			<Option target="Project_Graphe_new"/>
+		</Unit>
+		<Unit filename="/home/chloe/Documents/Project_Graphe_new/Tarjan.h">
+			<Option target="Project_Graphe_new"/>
+		</Unit>
 		<Unit filename="/home/chloe/Documents/Project_Graphe_new/main.cpp">
 			<Option target="Project_Graphe_new"/>
 		</Unit>

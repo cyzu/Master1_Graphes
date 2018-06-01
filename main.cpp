@@ -2,6 +2,7 @@
 #include "List.h"
 #include "Matrix.h"
 #include "Kosaraju.h"
+#include "Tarjan.h"
 
 void exemple1(Graph * g){
     /* 5 sommets
@@ -115,18 +116,17 @@ void exempleCircuit(Graph *g) {
 }
 
 int main() {
-    Graph *g1 = new Matrix(8);
-    exemple2(g1);
+    Graph *g1 = new List(8);
+    exemple4(g1);
 
     g1->printGraph();
-
-    /*Graph * g2 = g1->tranpose();
-    g2->printGraph();
-    return 0;*/
 
     Kosaraju kosaraju;
     kosaraju.algorithm(g1);
     kosaraju.printPartition();
 
+    Tarjan tarjan(g1->getNodeCount());
+    tarjan.algorithm(g1);
+    tarjan.printPartition();
     return 0;
 }

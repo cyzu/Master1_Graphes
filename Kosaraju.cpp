@@ -8,7 +8,13 @@ Kosaraju::Kosaraju() {
 
 }
 
+Kosaraju::~Kosaraju() {
+
+}
+
+
 void Kosaraju::printPartition() {
+    std::cout<< "Kosaraju's algorithm"<<std::endl;
     for (std::vector<std::vector<int>>::iterator it = partition.begin(); it != partition.end(); it++) {
         std::cout <<"CFC :";
         for (std::vector<int>::iterator it2 = it->begin(); it2 != it->end(); it2++) {
@@ -74,3 +80,4 @@ void Kosaraju::algorithm(Graph *g) {
         partition.push_back(scc);
     }
 }
+
