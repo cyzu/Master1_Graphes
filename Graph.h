@@ -22,7 +22,7 @@ public :
     virtual int getNeighborCount(const int n) = 0;
     virtual std::vector<int> getNeighbors(const int n) = 0;
     virtual void DFS() = 0;
-    virtual void tranpose(Graph * g) = 0;
+    virtual Graph * tranpose() = 0;
     virtual void printGraph() = 0;
 
 };

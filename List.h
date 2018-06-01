@@ -23,7 +23,7 @@ public:
     int getNeighborCount(const int n);
     std::vector<int> getNeighbors(const int n);
 
-    void tranpose(Graph * g);
+    Graph* tranpose();
     void DFS();
 };
 

@@ -20,7 +20,7 @@ public :
     int getNeighborCount(const int n) override;
     std::vector<int> getNeighbors(const int n) override;
 
-    void tranpose(Graph * g);
+    Graph * tranpose();
     void DFS() override;
 };
 

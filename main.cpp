@@ -114,12 +114,15 @@ void exempleCircuit(Graph *g) {
 }
 
 int main() {
-    Graph *g1 = new Matrix(3);
+    Graph *g1 = new List(3);
 
     g1->addEdge(0,1);
     g1->addEdge(1,0);
     g1->addEdge(0,2);
 
     g1->printGraph();
+
+    Graph *gt = g1->tranpose();
+    gt->printGraph();
     return 0;
 }

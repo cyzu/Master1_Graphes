@@ -28,6 +28,7 @@ void List::printGraph() {
         }
         std::cout << std::endl;
     }
+    std::cout<<std::endl;
 }
 
 std::vector<int> List::getNeighbors(const int n) {
@@ -38,6 +39,12 @@ std::vector<int> List::getNeighbors(const int n) {
     return succ;
 }
 
-void List::tranpose(Graph * g){
-    //TODO
+Graph * List::tranpose(){
+    List * tmp = new List(getNodeCount());
+    for (int i = 0; i < getNodeCount(); i++) {
+        for (std::set<int>::iterator it = neighbor[i].begin(); it != neighbor[i].end(); it++){
+            tmp->neighbor[*it].insert(i);
+        }
+    }
+    return tmp;
 };

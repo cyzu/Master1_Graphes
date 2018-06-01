@@ -61,9 +61,18 @@ void Matrix::printGraph() {
         }
         std::cout<<std::endl;
     }
+    std::cout<<std::endl;
 }
 
-void Matrix::tranpose(Graph * g) {
-    //TODO implémenter la transposition
-//    return Graph(0);
+Graph * Matrix::tranpose() {
+    Matrix *tmp = new Matrix(getNodeCount());
+
+    for (int i = 0; i < getNodeCount(); i++) {
+        for (int j = 0; j < getNodeCount(); j++) {
+            if (matrix[i][j] == 1){
+                tmp->matrix[j][i] = 1;
+            }
+        }
+    }
+    return tmp;
 }
