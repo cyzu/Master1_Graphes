@@ -2,7 +2,7 @@
 // Created by chloe on 01/06/18.
 //
 
-#include "Gabow.h"
+#include "../../header/Gabow.h"
 
 Gabow::Gabow(const int n){
     count = 1;

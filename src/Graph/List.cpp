@@ -2,7 +2,7 @@
 // Created by chloe on 01/06/18.
 //
 
-#include "List.h"
+#include "../../header/List.h"
 
 List::List(const int n) : Graph(n) {
     neighbor = new std::set<int>[getNodeCount()];

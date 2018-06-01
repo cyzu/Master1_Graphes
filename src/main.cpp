@@ -1,9 +1,9 @@
 #include <iostream>
-#include "List.h"
-#include "Matrix.h"
-#include "Kosaraju.h"
-#include "Tarjan.h"
-#include "Gabow.h"
+#include "../header/List.h"
+#include "../header/Matrix.h"
+#include "../header/Kosaraju.h"
+#include "../header/Tarjan.h"
+#include "../header/Gabow.h"
 
 void exemple1(Graph * g){
     /* 5 sommets
@@ -120,7 +120,7 @@ int main() {
     Graph *g1 = new List(12);
     exemple5(g1);
 
-    g1->printGraph();
+//    g1->printGraph();
 
     Kosaraju kosaraju;
     kosaraju.algorithm(g1);

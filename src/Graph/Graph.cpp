@@ -2,7 +2,7 @@
 // Created by chloe on 01/06/18.
 //
 
-#include "Graph.h"
+#include "../../header/Graph.h"
 
 Graph::Graph(const int n) {
     nodeCount = n;

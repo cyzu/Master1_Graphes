@@ -2,7 +2,7 @@
 // Created by chloe on 01/06/18.
 //
 
-#include "Matrix.h"
+#include "../../header/Matrix.h"
 
 Matrix::Matrix(const int n) : Graph(n) {
     matrix = new int*[getNodeCount()];

@@ -2,7 +2,7 @@
 // Created by chloe on 01/06/18.
 //
 
-#include "Tarjan.h"
+#include "../../header/Tarjan.h"
 
 //
 //  Tarjan.cpp
@@ -12,7 +12,7 @@
 //  Copyright © 2018 Chloé BENSOUSSAN. All rights reserved.
 //
 
-#include "Tarjan.h"
+#include "../../header/Tarjan.h"
 #include <algorithm>
 
 Tarjan::Tarjan(const int n){

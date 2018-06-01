@@ -2,7 +2,7 @@
 // Created by chloe on 01/06/18.
 //
 
-#include "Kosaraju.h"
+#include "../../header/Kosaraju.h"
 
 Kosaraju::Kosaraju() {
 

@@ -12,25 +12,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb761f5d-d4c6-49ed-b8dd-c90d76d05bc0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Gabow.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gabow.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project_Graphe_new.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project_Graphe_new" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project_Graphe_new" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project_Graphe_new.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project_Graphe_new.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gabow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/Gabow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gabow.h" beforeDir="false" afterPath="$PROJECT_DIR$/header/Gabow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/Graph.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/header/Graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kosaraju.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/Kosaraju.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kosaraju.h" beforeDir="false" afterPath="$PROJECT_DIR$/header/Kosaraju.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/List.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List.h" beforeDir="false" afterPath="$PROJECT_DIR$/header/List.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/Matrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/header/Matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarjan.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/Tarjan.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarjan.h" beforeDir="false" afterPath="$PROJECT_DIR$/header/Tarjan.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +40,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5862069">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/main.cpp">
+          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="553">
-                  <caret line="119" column="27" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
+                <state relative-caret-position="91">
+                  <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
                   <folding>
                     <element signature="e#0#19#0" expanded="true" />
                     <element signature="e#81#300#0" />
@@ -62,8 +57,13 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="Makefile" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
           <file leaf-file-name="Gabow.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gabow.cpp">
+            <entry file="file://$PROJECT_DIR$/algorithm/Gabow.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="248">
                   <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
@@ -72,10 +72,10 @@
             </entry>
           </file>
           <file leaf-file-name="Tarjan.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Tarjan.cpp">
+            <entry file="file://$PROJECT_DIR$/algorithm/Tarjan.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="203">
-                  <caret line="50" column="27" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="50" selection-end-column="27" />
+                  <caret line="50" column="27" selection-start-line="43" selection-start-column="4" selection-end-line="50" selection-end-column="27" />
                   <folding>
                     <element signature="e#243#262#0" expanded="true" />
                   </folding>
@@ -84,7 +84,7 @@
             </entry>
           </file>
           <file leaf-file-name="Kosaraju.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Kosaraju.cpp">
+            <entry file="file://$PROJECT_DIR$/algorithm/Kosaraju.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-154">
                   <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
@@ -93,7 +93,7 @@
             </entry>
           </file>
           <file leaf-file-name="Graph.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Graph.cpp">
+            <entry file="file://$PROJECT_DIR$/Graph/Graph.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="94">
                   <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
@@ -102,7 +102,7 @@
             </entry>
           </file>
           <file leaf-file-name="Graph.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Graph.h">
+            <entry file="file://$PROJECT_DIR$/header/Graph.h">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="294">
                   <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
@@ -118,7 +118,7 @@
       <split-second>
         <leaf>
           <file leaf-file-name="Kosaraju.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Kosaraju.h">
+            <entry file="file://$PROJECT_DIR$/header/Kosaraju.h">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="210">
                   <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
@@ -127,7 +127,7 @@
             </entry>
           </file>
           <file leaf-file-name="Tarjan.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Tarjan.h">
+            <entry file="file://$PROJECT_DIR$/header/Tarjan.h">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="140">
                   <caret line="13" column="18" selection-start-line="13" selection-end-line="14" />
@@ -139,10 +139,10 @@
             </entry>
           </file>
           <file leaf-file-name="Gabow.h" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Gabow.h">
+            <entry file="file://$PROJECT_DIR$/header/Gabow.h">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="280">
-                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+                  <caret line="20" selection-start-line="20" selection-end-line="20" />
                   <folding>
                     <element signature="e#111#130#0" expanded="true" />
                   </folding>
@@ -236,6 +236,14 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="language.cpp.clang-tidy" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/algorithm" />
+      <recent name="$PROJECT_DIR$/Graph" />
+      <recent name="$PROJECT_DIR$/header" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -269,7 +277,7 @@
       <workItem from="1527806705923" duration="4618000" />
       <workItem from="1527811726532" duration="392000" />
       <workItem from="1527855334520" duration="21433000" />
-      <workItem from="1527883640735" duration="6624000" />
+      <workItem from="1527883640735" duration="7013000" />
     </task>
     <task id="LOCAL-00001" summary="✓ transpose()">
       <created>1527857323701</created>
@@ -292,23 +300,29 @@
       <option name="project" value="LOCAL" />
       <updated>1527889096766</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="✓ Gabow">
+      <created>1527890335425</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527890335425</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33067000" />
+    <option name="totallyTimeSpent" value="33456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="3" width="1363" height="738" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" weight="0.15187088" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15187088" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.33123028" />
       <window_info anchor="bottom" id="CMake" order="4" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32649842" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32649842" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -326,7 +340,7 @@
       <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32649842" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.33015406" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.15187088" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -352,7 +366,8 @@
     <MESSAGE value="✓ transpose()" />
     <MESSAGE value="✓ DFS parfaite et Kosaraju !!!" />
     <MESSAGE value="✓ Tarjan" />
-    <option name="LAST_COMMIT_MESSAGE" value="✓ Tarjan" />
+    <MESSAGE value="✓ Gabow" />
+    <option name="LAST_COMMIT_MESSAGE" value="✓ Gabow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -360,7 +375,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1806">
           <caret line="129" selection-start-line="129" selection-end-line="129" />
@@ -375,7 +390,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/List.cpp">
+    <entry file="file://$PROJECT_DIR$/Graph/List.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="854">
           <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
@@ -389,7 +404,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph.h">
+    <entry file="file://$PROJECT_DIR$/header/Graph.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
@@ -399,21 +414,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph.cpp">
+    <entry file="file://$PROJECT_DIR$/Graph/Graph.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
           <caret line="72" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Kosaraju.cpp">
+    <entry file="file://$PROJECT_DIR$/algorithm/Kosaraju.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="826">
           <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1400">
           <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
@@ -428,7 +443,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/List.h">
+    <entry file="file://$PROJECT_DIR$/header/List.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
@@ -438,28 +453,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Matrix.h">
+    <entry file="file://$PROJECT_DIR$/header/Matrix.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Matrix.cpp">
+    <entry file="file://$PROJECT_DIR$/Graph/Matrix.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/List.cpp">
+    <entry file="file://$PROJECT_DIR$/Graph/List.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="42" column="2" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph.h">
+    <entry file="file://$PROJECT_DIR$/header/Graph.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
@@ -469,7 +484,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1624">
           <caret line="116" column="30" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
@@ -484,7 +499,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/List.h">
+    <entry file="file://$PROJECT_DIR$/header/List.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
@@ -494,28 +509,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Matrix.h">
+    <entry file="file://$PROJECT_DIR$/header/Matrix.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Matrix.cpp">
+    <entry file="file://$PROJECT_DIR$/Graph/Matrix.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/List.cpp">
+    <entry file="file://$PROJECT_DIR$/Graph/List.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="42" column="2" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph.h">
+    <entry file="file://$PROJECT_DIR$/header/Graph.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
@@ -525,7 +540,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/List.h">
+    <entry file="file://$PROJECT_DIR$/header/List.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
@@ -535,14 +550,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Matrix.cpp">
+    <entry file="file://$PROJECT_DIR$/Graph/Matrix.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
           <caret line="105" column="33" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Matrix.h">
+    <entry file="file://$PROJECT_DIR$/header/Matrix.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
@@ -612,21 +627,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/List.cpp">
+    <entry file="file://$PROJECT_DIR$/Graph/List.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="854">
           <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph.cpp">
+    <entry file="file://$PROJECT_DIR$/Graph/Graph.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
           <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph.h">
+    <entry file="file://$PROJECT_DIR$/header/Graph.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
@@ -636,14 +651,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Kosaraju.h">
+    <entry file="file://$PROJECT_DIR$/header/Kosaraju.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Kosaraju.cpp">
+    <entry file="file://$PROJECT_DIR$/algorithm/Kosaraju.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-154">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
@@ -657,7 +672,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tarjan.h">
+    <entry file="file://$PROJECT_DIR$/header/Tarjan.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="13" column="18" selection-start-line="13" selection-end-line="14" />
@@ -667,37 +682,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tarjan.cpp">
+    <entry file="file://$PROJECT_DIR$/algorithm/Tarjan.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
-          <caret line="50" column="27" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="50" selection-end-column="27" />
+          <caret line="50" column="27" selection-start-line="43" selection-start-column="4" selection-end-line="50" selection-end-column="27" />
           <folding>
             <element signature="e#243#262#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gabow.h">
+    <entry file="file://$PROJECT_DIR$/header/Gabow.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#111#130#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gabow.cpp">
+    <entry file="file://$PROJECT_DIR$/algorithm/Gabow.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="119" column="27" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
+        <state relative-caret-position="91">
+          <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
             <element signature="e#81#300#0" />
@@ -708,6 +723,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
