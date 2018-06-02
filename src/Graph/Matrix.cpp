@@ -17,14 +17,7 @@ Matrix::Matrix(const int n) : Graph(n) {
 
 void Matrix::addEdge(const int t, const int h) {
     matrix[t][h] = 1;
-}
-
-int Matrix::getNeighborCount(const int n) {
-    int count = 0;
-    for (int i = 0; i < getNodeCount(); ++i) {
-        count += matrix[n][i];
-    }
-    return count;
+    edgeCount++;
 }
 
 std::vector<int> Matrix::getNeighbors(const int n) {
@@ -36,32 +29,6 @@ std::vector<int> Matrix::getNeighbors(const int n) {
     }
     return neighbor;
 }
-
-/*std::stack<int> Matrix::DFS(const int s) {
-    std::stack<int> result, S;
-    bool mark[getNodeCount()];
-    for (int i = 0; i < getNodeCount(); i++) {
-        mark[i] = false;
-    }
-
-    S.push(s);
-    mark[s] = true;
-
-    while(!S.empty()){
-        int x = S.top();
-        S.pop();
-        result.push(x);
-
-        std::vector<int> voisins = getNeighbors(x);
-        for (std::vector<int>::iterator it = voisins.begin(); it != voisins.end(); it++) {
-            if (!mark[*it]){
-                mark[*it] = true;
-                S.push(*it);
-            }
-        }
-    }
-    return result;
-}*/
 
 void Matrix::printGraph() {
     std::cout<<" ";
@@ -107,5 +74,13 @@ void Matrix::deleteNode(const int n) {
             }
         }
     }
+}
 
+void Matrix::clearGraph() {
+    for (int i = 0; i < getNodeCount(); ++i) {
+        for (int j = 0; j < getNodeCount(); ++j) {
+            matrix[i][j] = 0;
+        }
+    }
+    edgeCount = 0;
 }

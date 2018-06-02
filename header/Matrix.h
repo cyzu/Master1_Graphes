@@ -15,16 +15,13 @@ class Matrix : public Graph {
 
     Matrix(const int n);
 
-    void addEdge(const int t, const int h) override;
-    void printGraph() override;
+    void addEdge(const int t, const int h);
+    void printGraph();
 
-    int getNeighborCount(const int n) override;
-    std::vector<int> getNeighbors(const int n) override;
-
+    std::vector<int> getNeighbors(const int n);
     Graph * tranpose();
-
-    virtual void deleteNode(const int n);
-//    std::stack<int> DFS(const int s);
+    void deleteNode(const int n);
+    void clearGraph();
 };
 
 

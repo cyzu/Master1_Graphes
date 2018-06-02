@@ -1,4 +1,6 @@
 #include <iostream>
+#include <fstream>
+#include <sys/time.h>
 #include "../header/List.h"
 #include "../header/Matrix.h"
 #include "../header/Kosaraju.h"
@@ -116,23 +118,73 @@ void exempleCircuit(Graph *g) {
     }
 }
 
+void randomGraph(Graph * g, const int arete){
+    /* Pour un nombre de sommet défini dans le constructeur,
+     * on crée 'arete' aretes dans le graphe aléatoirement.
+     * CFCs : faire confiance aux algos
+     *
+     * Il peut y avoir plusieurs fois les memes aretes*/
+
+    for (int i = 0; i < arete; i++) {
+        g->addEdge(std::rand()%g->getNodeCount(), std::rand()%g->getNodeCount());
+    }
+}
+
+
 int main() {
-    Graph *g1 = new List(12);
-    exemple5(g1);
+    struct timeval debut, fin;
+    srand(time(NULL));
 
-//    g1->printGraph();
+    // ouverture en écriture à la fin du fichier
+    std::ofstream f_Kosaraju;
+    std::ofstream f_Tarjan;
+    std::ofstream f_Gabow;
+    f_Kosaraju.open("data_K.txt", std::ios::out | std::ios::trunc);
+    f_Tarjan.open("data_T.txt", std::ios::out | std::ios::trunc);
+    f_Gabow.open("data_G.txt", std::ios::out | std::ios::trunc);
 
-    Kosaraju kosaraju;
-    kosaraju.algorithm(g1);
-    kosaraju.printPartition();
+    if (!f_Kosaraju.is_open() || !f_Tarjan.is_open() || !f_Gabow.is_open()){
+        std::cerr << "Erreur ouverture des fichiers" << std::endl;
+        exit(1);
+    }
 
-    Tarjan tarjan(g1->getNodeCount());
-    tarjan.algorithm(g1);
-    tarjan.printPartition();
+    Graph *g = new List(1000);
 
-    Gabow gabow(g1->getNodeCount());
-    gabow.algorithm(g1);
-    gabow.printPartition();
+    for (int arete = 0; arete <= 1000000; arete+=1000){
+        randomGraph(g, arete);
+
+        /* KOSARAJU */
+        gettimeofday(&debut, NULL);
+        Kosaraju kosaraju;
+        kosaraju.algorithm(g);
+        gettimeofday(&fin, NULL);
+
+        // affichage en microsecondes
+        f_Kosaraju << g->getEdgeCount() << " " << ((fin.tv_sec * 1000000 + fin.tv_usec) - (debut.tv_sec * 1000000 + debut.tv_usec)) << std::endl;
+
+
+        /* TARJAN */
+        gettimeofday(&debut, NULL);
+        Tarjan tarjan(g->getNodeCount());
+        tarjan.algorithm(g);
+        gettimeofday(&fin, NULL);
+
+        f_Tarjan << g->getEdgeCount() << " " << ((fin.tv_sec * 1000000 + fin.tv_usec) - (debut.tv_sec * 1000000 + debut.tv_usec)) << std::endl;
+
+        /* GABOW */
+        gettimeofday(&debut, NULL);
+        Gabow gabow(g->getNodeCount());
+        gabow.algorithm(g);
+        gettimeofday(&fin, NULL);
+
+        f_Gabow << g->getEdgeCount() << " " << ((fin.tv_sec * 1000000 + fin.tv_usec) - (debut.tv_sec * 1000000 + debut.tv_usec)) << std::endl;
+
+        g->clearGraph();
+    }
+
+    f_Kosaraju.close();
+    f_Tarjan.close();
+    f_Gabow.close();
 
     return 0;
 }

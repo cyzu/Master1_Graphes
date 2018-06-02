@@ -10,41 +10,12 @@ List::List(const int n) : Graph(n) {
 
 void List::addEdge(const int t, const int h) {
     neighbor[t].insert(h);
+    edgeCount++;
 }
-
-int List::getNeighborCount(const int n) {
-    return (int) neighbor[n].size();
-}
-
-/*std::stack<int> List::DFS(const int s) {
-    std::stack<int> result, S;
-    bool mark[getNodeCount()];
-    for (int i = 0; i < getNodeCount(); i++) {
-        mark[i] = false;
-    }
-
-    S.push(s);
-    mark[s] = true;
-
-    while(!S.empty()){
-        int x = S.top();
-        S.pop();
-        result.push(x);
-
-        std::vector<int> voisins = getNeighbors(x);
-        for (std::vector<int>::iterator it = voisins.begin(); it != voisins.end(); it++) {
-            if (!mark[*it]){
-                mark[*it] = true;
-                S.push(*it);
-            }
-        }
-    }
-    return result;
-}*/
 
 void List::printGraph() {
     for (int i = 0; i < getNodeCount(); i++){
-        std::cout << "Sommet "<<i<<" ->";
+        std::cout << "Node "<<i<<" ->";
         for (std::set<int>::iterator it = neighbor[i].begin(); it != neighbor[i].end(); it++) {
             std::cout << " " << *it;
         }
@@ -80,4 +51,11 @@ void List::deleteNode(const int n) {
             neighbor[i].erase(n);
         }
     }
+}
+
+void List::clearGraph(){
+    for (int i = 0; i < getNodeCount(); ++i) {
+        neighbor[i].clear();
+    }
+    edgeCount = 0;
 }

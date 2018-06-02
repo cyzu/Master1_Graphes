@@ -20,13 +20,10 @@ public:
     void addEdge(const int t, const int h);
     void printGraph();
 
-    int getNeighborCount(const int n);
     std::vector<int> getNeighbors(const int n);
-
     Graph* tranpose();
-
     void deleteNode(const int n);
-    //std::stack<int> DFS(const int s);
+    void clearGraph();
 };
 
 #endif //PROJECT_GRAPHE_NEW_LIST_H

@@ -6,6 +6,7 @@
 
 Graph::Graph(const int n) {
     nodeCount = n;
+    edgeCount = 0;
     inS = new bool[nodeCount];
 }
 
@@ -15,6 +16,10 @@ Graph::~Graph() {
 
 int Graph::getNodeCount() {
     return nodeCount;
+}
+
+int Graph::getEdgeCount() {
+    return edgeCount;
 }
 
 void Graph::initInS() {
