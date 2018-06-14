@@ -6,7 +6,7 @@
 
 SHELL = /bin/bash
 CXX = g++
-CXXFLAGS = -g -std=c++11 -Wall
+CXXFLAGS = -g -std=c++11
 RM = rm -f
 
 SRC_DIR	= src
@@ -34,4 +34,4 @@ $(EXEC) : $(OBJECTS)
 	$(CXX) $(CXXFLAGS) -o $@ $^
 
 clean ::
-	$(RM) *.o $(EXEC)
+	$(RM) *.o

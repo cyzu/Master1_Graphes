@@ -139,9 +139,9 @@ int main() {
     std::ofstream f_Kosaraju;
     std::ofstream f_Tarjan;
     std::ofstream f_Gabow;
-    f_Kosaraju.open("data_K.txt", std::ios::out | std::ios::trunc);
-    f_Tarjan.open("data_T.txt", std::ios::out | std::ios::trunc);
-    f_Gabow.open("data_G.txt", std::ios::out | std::ios::trunc);
+    f_Kosaraju.open("docs/data_Kosaraju.txt", std::ios::out | std::ios::trunc);
+    f_Tarjan.open("docs/data_Tarjan.txt", std::ios::out | std::ios::trunc);
+    f_Gabow.open("docs/data_Gabow.txt", std::ios::out | std::ios::trunc);
 
     if (!f_Kosaraju.is_open() || !f_Tarjan.is_open() || !f_Gabow.is_open()){
         std::cerr << "Erreur ouverture des fichiers" << std::endl;
@@ -150,7 +150,7 @@ int main() {
 
     Graph *g = new Matrix(100);
     //Graph *g = new List(1000);
-
+    //
     for (int arete = 0; arete <= 1000; arete+=10){
     //for (int arete = 0; arete <= 1000000; arete += 1000){}
         randomGraph(g, arete);
