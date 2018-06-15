@@ -148,11 +148,9 @@ int main() {
         exit(1);
     }
 
-    Graph *g = new Matrix(100);
-    //Graph *g = new List(1000);
-    //
-    for (int arete = 0; arete <= 1000; arete+=10){
-    //for (int arete = 0; arete <= 1000000; arete += 1000){}
+    Graph *g = new Matrix(1000);
+
+    for (int arete = 0; arete <= 1000000; arete += 1000){
         randomGraph(g, arete);
 
         /* KOSARAJU */
