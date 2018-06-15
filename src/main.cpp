@@ -130,12 +130,11 @@ void randomGraph(Graph * g, const int arete){
     }
 }
 
-
 int main() {
     struct timeval debut, fin;
     srand(time(NULL));
 
-    // ouverture en écriture à la fin du fichier
+    // Création des fichiers intégrant les temps d'exécution des algorithmes
     std::ofstream f_Kosaraju;
     std::ofstream f_Tarjan;
     std::ofstream f_Gabow;
@@ -148,9 +147,36 @@ int main() {
         exit(1);
     }
 
-    Graph *g = new Matrix(1000);
+    // Création d'un graphe de type liste. Utiliser Matrix pour le type matrice d'adjacence
+    Graph *g = new List(100);
 
-    for (int arete = 0; arete <= 1000000; arete += 1000){
+    /** Boucle de variation des arêtes. Graphe de 100 sommets.
+    Nombre d'arêtes de 0 à 10000.
+    Incrémentation de 100 en 100.
+
+    Si vous voulez essayer le programme, vous pouvez supprimer toute la boucle,
+    et appeler une des fonctions au-dessus. Il y a quelques exemples de graphe.
+
+    Puis appeler l'algorithme voulu.
+
+    Exemple :
+        Graphe *g = new List(5);
+        exemple1(g);
+
+        Kosaraju kosaraju;
+        Tarjan tarjan(g->getNodeCount());
+        Gabow gabow(g->getNodeCount());
+
+        kosaraju.algorithm(g);
+        kosaraju.printPartition();
+
+        tarjan.algorithm(g);
+        tarjan.printPartition();
+
+        gabow.algorithm(g);
+        gabow.printPartition();
+    */
+    for (int arete = 0; arete <= 10000; arete += 100){
         randomGraph(g, arete);
 
         /* KOSARAJU */
